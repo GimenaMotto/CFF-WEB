@@ -7,7 +7,7 @@ function App() {
     <div>
       <h1>CFF
       </h1>
-      <MainTable />
+      {/* <MainTable /> */}
       <DataLoader />
     </div>
   );

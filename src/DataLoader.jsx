@@ -21,7 +21,7 @@ const DataLoader = () => {
 
     return (
         <div>
-            <h2>Datos</h2>
+            <h2>conectado a tabla de Christian</h2>
             <table>
                 <thead>
                     {data.length > 0 && (
