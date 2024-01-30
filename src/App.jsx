@@ -1,11 +1,13 @@
 import React from 'react';
 import DataLoader from './DataLoader';
+import MainTable from './MainTable'
 
 function App() {
   return (
     <div>
       <h1>CFF
       </h1>
+      <MainTable />
       <DataLoader />
     </div>
   );
