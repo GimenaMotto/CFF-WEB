@@ -3,9 +3,8 @@ h2 {
 }
 
 .main-table {
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     margin: 20px;
-    /* Ajusta el valor según sea necesario */
 }
 
 .main-table td,
@@ -18,18 +17,16 @@ h2 {
     background-color: #f2f2f2;
 }
 
-/* Mantener las líneas de la tabla visibles */
-.main-table tr:hover td {
+.main-table tr:not(:first-child):hover td {
     border: 1px solid #dddddd;
 }
 
-/* Establecer un color con transparencia al hacer hover */
-.main-table tr:not(.bold-row):hover {
+/* Establecer un color con transparencia al hacer hover, excluyendo la primera fila */
+.main-table tr:not(:first-child):hover {
     background-color: rgba(174, 183, 221, 0.3);
-    /* Utiliza rgba para especificar un color con transparencia */
 }
 
-/* Estilos para la fila en negrita */
+
 .bold-row {
     font-weight: bold;
     text-align: center;
@@ -38,5 +35,4 @@ h2 {
 .bold-row td,
 .bold-row th {
     padding: 5px;
-    /* Ajusta el valor según sea necesario */
 }
